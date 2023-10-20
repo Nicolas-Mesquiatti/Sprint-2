@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Black Ops One"
+}
+/* Menu de navegacion */
+.form{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.menu{
+    background-color: rgb(3, 5, 5);
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+}
+
+.menu li a{
+   display: flex;
+   text-decoration: none;
+   color: rgb(255, 17, 0);
+   padding: 30px;
+   padding-right: 100px;
+   
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 40px;
+    margin-inline-start: 10px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 20px 20px 40px 50px;
+     
+    color: rgb(255, 8, 0);
+    width: 100%;
+    padding: 12px 10px 12px 10px; 
+    font-family: "Creepster"
+    
+ }  
+   
+ .subra{
+     border-bottom: solid 8px  rgb(196, 64, 64);
+     color: rgb(0, 0, 0);
+     box-shadow: 10px 10px 40px 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-family:"Black Ops One";
+     text-align: center;
+     text-decoration:underline
+     
+}
+   
+   
+/* Seccion de articulos/menu */
+main{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    font-style: oblique;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);        
+}
+h2{
+    font-family: "DM Serif Display";
+    color: rgb(231, 5, 5);
+    padding: 20px;
+    text-decoration: underline;
+}
+.article{
+    
+    text-align:start;
+    padding-top: 10px;
+    padding: 10px;
+    
+
+     border-left-style: solid;
+     border-left-width: 10px;
+     border-left-color: rgb(255, 0, 0) ;
+     border-radius: 10px;
+
+     border-right-style: solid;
+     border-right-width: 10px;
+     border-right-color: rgb(216, 93, 93) ;
+     border-radius: 10px;
+
+   
+ }
+
+.articleimg{
+    
+     margin: 30px;
+     width: 159px;
+     height: 159px;
+     float: left;
+     border-radius: 10px;
+     
+
+}
+
+.colores2{
+    font-family: "Indie Flower";
+    color: rgb(216, 87, 87);
+}
+.colores3{
+    color: rgb(233, 177, 58);
+}
+/* Footer/pie de pagina */
+.menu2{
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 20px 2px 50px 10px;
+     background-color: rgb(0, 0, 0);
+    color: rgb(252, 0, 0);
+    width: 100%;
+    padding: 17px 0 17px 0; 
+
+}
+
+div ul li{
+    list-style-type:none
+}
