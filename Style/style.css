@@ -90,15 +90,23 @@ h2 {
 
 .colores2 {
     font-family: "Indie Flower";
-    color: rgb(219, 35, 35);
+    color: rgb(209, 19, 19);
 }
 
 .colores3 {
-    color: rgb(245, 90, 1);
+    color: rgb(0, 255, 170);
     text-shadow: 100px;
+    box-shadow: 3px 100px 100px 33px;
+    border: solid;
+    border-radius: 100px;
     
 }
-
+h3{
+    color:rgb(229, 255, 0);
+    box-shadow: 3px 100px 100px 3px;
+    background-color: rgba(121, 8, 8, 0.253);
+    
+ }
 body section ul h2{
     color: rgb(228, 53, 41);
 }

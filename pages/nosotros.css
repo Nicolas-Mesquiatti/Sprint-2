@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(248, 4, 4);
+    text-align: center;
+    text-decoration: overline;
+    
+}
+
+body{
+    background-image: url(https://cdn.todomountainbike.net/images/articles/2023/cinco-marcas-bicicletas-mas-populares-5.jpg );
+    background-image: url(https://cdn.todomountainbike.net/images/articles/2023/cinco-marcas-bicicletas-mas-populares-2.jpg);
+    background-size: 15%;
+}
+section{
+    
+    color: rgb(221, 221, 221);
+    padding-top: 100px;
+    text-align:center
+}
