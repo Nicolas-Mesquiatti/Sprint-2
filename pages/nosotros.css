@@ -16,3 +16,9 @@ section{
     padding-top: 100px;
     text-align:center
 }
+.btn{
+    display: inline-block;
+    background-color: rgb(121, 199, 199);
+    padding: 10px;
+    text-decoration: overline;
+}

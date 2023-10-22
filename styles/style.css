@@ -6,13 +6,14 @@ body {
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-family: "Black Ops One"
+    font-family: "Nosifer"
 }
 
 /* Menu de navegacion */
 .form {
     margin-top: 40px;
     text-align: center;
+    font-family: "Bakbak One" ;
 
 }
 
@@ -26,10 +27,10 @@ h1 {
 .menu li a {
     display: flex;
     text-decoration: none;
-    color: rgb(255, 17, 0);
+    color: rgb(238, 37, 15);
     padding: 30px;
-    padding-right: 70px;
-
+    padding-right: 50px;
+    font-family: "Bakbak One";
 }
 
 .menu li {
@@ -48,7 +49,7 @@ nav {
     color: rgb(255, 8, 0);
     width: 100%;
     padding: 12px 10px 12px 10px;
-    font-family: "Creepster"
+    font-family:"fantasy"
 
 }
 
@@ -58,21 +59,14 @@ nav {
     box-shadow: 10px 10px 40px 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: "Black Ops One";
     text-align: center;
-    text-decoration: underline
+    text-decoration: underline;
+    font-family: "Nosifer"
 }
 
-
-/* Seccion de articulos/menu */
-main {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(90, 4, 4);
-}
 
 h2 {
-    font-family: "DM Serif Display";
+    font-family: "Nosifer";
     color: rgb(231, 5, 5);
     padding: 20px;
     text-decoration: underline;
@@ -84,27 +78,30 @@ h2 {
     grid-template-rows: auto ;
     color: rgb(233, 54, 54);
     list-style-type: unset ;
-    justify-items:center
+    justify-items:center;
 }
 
 
 .colores2 {
-    font-family: "Indie Flower";
+    font-family: "Frijole";
     color: rgb(209, 19, 19);
 }
 
 .colores3 {
-    color: rgb(0, 255, 170);
+    color: rgb(243, 45, 19);
     text-shadow: 100px;
     box-shadow: 3px 100px 100px 33px;
     border: solid;
-    border-radius: 100px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: "Frijole";
     
 }
 h3{
-    color:rgb(229, 255, 0);
-    box-shadow: 3px 100px 100px 3px;
-    background-color: rgba(121, 8, 8, 0.253);
+    color:rgb(189, 255, 7);
+    box-shadow: 33px 100px 100px 3px;
+    background-color: rgba(238, 155, 61, 0.253);
+    font-family: "Bakbak One" ;
     
  }
 body section ul h2{
