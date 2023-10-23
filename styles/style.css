@@ -153,7 +153,7 @@ div ul li {
         padding-right: 100%;
         width: 100%;
         height: 0%;
-        padding-left:30px;
+        padding-left: 30px;
     }
 
     .menu li a {
@@ -206,7 +206,7 @@ div ul li {
     }
 
     /* EL CAROUSEL... NO PUDE ACOMODAR EL TEXTO QUE ESTABA DENTRO DEL CAROUSEL ESO SI QUE ME COMPLICO */
-     .contenedor { 
+    .contenedor {
         display: flex;
         width: 50%;
         justify-content: right;
@@ -242,19 +242,20 @@ div ul li {
     }
 
     /* Footer */
-        .menu2 {
-            display: block;
-            text-align: center;
-            box-shadow: 70px 2px 50px 10px;
-            background-color: rgba(49, 46, 46, 0.514);
-            color: rgba(49, 41, 41, 0.74);
-            width: 100%;
-            padding: 17px 0 17px 0;
-            list-style-type: decimal-leading-zero;
-        
-        }
-    
+    .menu2 {
+        display: block;
+        text-align: center;
+        box-shadow: 70px 2px 50px 10px;
+        background-color: rgba(49, 46, 46, 0.514);
+        color: rgba(49, 41, 41, 0.74);
+        width: 100%;
+        padding: 17px 0 17px 0;
+        list-style-type: decimal-leading-zero;
+
+    }
+
 }
+
 /* Para los que tengan las pantallas desde 601px a 1000px */
 
 @media(min-width:601px) {
@@ -290,7 +291,7 @@ div ul li {
     }
 
     .form {
-        text-align:center;
+        text-align: center;
         padding-top: 66%;
         margin-top: 22%;
         color: rgb(31, 200, 252);
@@ -318,7 +319,7 @@ div ul li {
     }
 
     /* EL CAROUSEL... NO PUDE ACOMODAR EL TEXTO QUE ESTABA DENTRO DEL CAROUSEL ESO SI QUE ME COMPLICO */
-     .contenedor { 
+    .contenedor {
         display: flex;
         width: 50%;
         justify-content: right;
@@ -329,7 +330,7 @@ div ul li {
     .otromas {
         display: grid;
         list-style-type: none;
-        justify-items:center;
+        justify-items: center;
         box-shadow: none;
     }
 
@@ -356,19 +357,20 @@ div ul li {
     }
 
     /* Footer */
-        .menu2 {
-            display: flex;
-            flex-wrap: wrap;
-            box-shadow: 10px 130px 350px 310px;
-            background-color: rgb(45, 61, 58);
-            color: rgba(63, 84, 90, 0.37);
-            width: 100%;
-            padding: 17px 0 17px 0;
-            
-        
-        }
-    
+    .menu2 {
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 10px 130px 350px 310px;
+        background-color: rgb(45, 61, 58);
+        color: rgba(63, 84, 90, 0.37);
+        width: 100%;
+        padding: 17px 0 17px 0;
+
+
+    }
+
 }
+
 /* Desde 1000px hasta 1176px */
 @media(min-width:1000px) {
 
@@ -376,13 +378,13 @@ div ul li {
         margin: 0 auto;
         background-color: rgb(5, 4, 4);
     }
-    
+
     h1 {
         color: rgb(255, 0, 0);
         text-align: center;
         font-family: "Nosifer"
     }
-    
+
     /* Menu de navegacion */
     .form {
         display: flex;
@@ -392,9 +394,10 @@ div ul li {
         font-family: "Bakbak One";
         color: rgb(228, 21, 21);
         margin-left: 0px;
-    
-    
+
+
     }
+
     .menu {
         display: flex;
         flex-direction: row;
@@ -402,7 +405,7 @@ div ul li {
         width: 100%;
         height: 20%;
         padding-left: 7px;
-        padding-top: 0px;  
+        padding-top: 0px;
     }
 
     .menu li a {
@@ -426,8 +429,8 @@ div ul li {
         font-family: "fantasy"
 
     }
-    
-    
+
+
     /* Subtitulo */
     .subra {
         border-bottom: solid 8px rgb(206, 11, 11);
@@ -439,15 +442,15 @@ div ul li {
         text-decoration: underline;
         font-family: "Nosifer"
     }
-    
-    
+
+
     h2 {
         font-family: "Nosifer";
         color: rgb(177, 36, 36);
         padding: 20px;
         text-decoration: underline;
     }
-    
+
     /* Menu de mas recomendaciones */
     .otromas {
         display: grid;
@@ -457,13 +460,13 @@ div ul li {
         list-style-type: unset;
         justify-items: center;
     }
-    
+
     /* Configuracion de texto y decoraciones */
     .colores2 {
         font-family: "Frijole";
         color: rgb(209, 19, 19);
     }
-    
+
     .colores3 {
         color: rgb(243, 45, 19);
         text-shadow: 100px;
@@ -472,22 +475,22 @@ div ul li {
         border-radius: 10px;
         background-color: black;
         font-family: "Frijole";
-    
+
     }
-    
+
     h3 {
         color: rgb(189, 255, 7);
         box-shadow: 33px 100px 100px 3px;
         background-color: rgba(238, 155, 61, 0.253);
         font-family: "Bakbak One";
-    
+
     }
-    
+
     body section ul h2 {
         color: rgb(240, 24, 8);
-        font-family:"Frijole" ;
+        font-family: "Frijole";
     }
-    
+
     /* Footer/pie de pagina */
     .menu2 {
         display: flex;
@@ -498,13 +501,13 @@ div ul li {
         width: 100%;
         padding: 17px 0 17px 0;
         list-style-type: decimal-leading-zero;
-    
+
     }
-    
+
     div ul li {
         list-style-type: none
     }
-    
+
     /* Configuracion del carrousel */
     .contenedor {
         display: flex;
@@ -512,31 +515,31 @@ div ul li {
         justify-content: center;
         margin-left: 300px;
     }
-    
-    
+
+
 }
 
-@media(min-width:1177px){
+@media(min-width:1177px) {
 
     body {
         margin: 0 auto;
         background-color: rgb(0, 0, 0);
     }
-    
+
     h1 {
         color: rgb(0, 0, 0);
         text-align: center;
         font-family: "Nosifer"
     }
-    
+
     /* Menu de navegacion */
     .form {
         margin-top: 40px;
         text-align: center;
         font-family: "Bakbak One";
-    
+
     }
-    
+
     .menu {
         background-color: rgb(3, 5, 5);
         list-style: none;
@@ -544,7 +547,7 @@ div ul li {
         width: 100%;
         flex-direction: row;
     }
-    
+
     .menu li a {
         display: flex;
         text-decoration: none;
@@ -553,27 +556,27 @@ div ul li {
         padding-right: 30px;
         font-family: "Bakbak One";
     }
-    
+
     .menu li {
         display: inline-block;
         padding: 10px;
         margin-right: 50px;
         margin-inline-start: 0px;
-    
+
     }
-    
+
     nav {
         display: flex;
         justify-content: space-around;
         box-shadow: 20px 20px 40px 50px;
-    
+
         color: rgb(255, 8, 0);
         width: 100%;
         padding: 12px 10px 12px 10px;
         font-family: "fantasy"
-    
+
     }
-    
+
     /* Subtitulo */
     .subra {
         border-bottom: solid 8px rgb(196, 64, 64);
@@ -585,15 +588,15 @@ div ul li {
         text-decoration: underline;
         font-family: "Nosifer"
     }
-    
-    
+
+
     h2 {
         font-family: "Nosifer";
         color: rgb(231, 5, 5);
         padding: 20px;
         text-decoration: underline;
     }
-    
+
     /* Menu de mas recomendaciones */
     .otromas {
         display: grid;
@@ -603,13 +606,13 @@ div ul li {
         list-style-type: unset;
         justify-items: center;
     }
-    
+
     /* Configuracion de texto y decoraciones */
     .colores2 {
         font-family: "Frijole";
         color: rgb(209, 19, 19);
     }
-    
+
     .colores3 {
         color: rgb(243, 45, 19);
         text-shadow: 100px;
@@ -618,21 +621,21 @@ div ul li {
         border-radius: 10px;
         background-color: black;
         font-family: "Frijole";
-    
+
     }
-    
+
     h3 {
         color: rgb(189, 255, 7);
         box-shadow: 33px 100px 100px 3px;
         background-color: rgba(238, 155, 61, 0.253);
         font-family: "Bakbak One";
-    
+
     }
-    
+
     body section ul h2 {
         color: rgb(228, 53, 41);
     }
-    
+
     /* Footer/pie de pagina */
     .menu2 {
         display: flex;
@@ -643,13 +646,13 @@ div ul li {
         width: 100%;
         padding: 17px 0 17px 0;
         list-style-type: decimal-leading-zero;
-    
+
     }
-    
+
     div ul li {
         list-style-type: none
     }
-    
+
     /* Configuracion del carrousel */
     .contenedor {
         display: flex;
@@ -657,12 +660,8 @@ div ul li {
         justify-content: center;
         margin-left: 300px;
     }
-    
+
 
 
 
 }
-
-
-
-
